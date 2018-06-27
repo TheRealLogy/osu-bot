@@ -1,9 +1,8 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const osu = require('node-osu');
-const cfg = require('./cfg.json');
 
-const prefix = cfg.prefix;
+const prefix = 'osu ';
 const token = process.env.BOT_TOKEN
 const osuToken = process.env.OSU_TOKEN
 
