@@ -1,0 +1,2 @@
+# osu-bot
+Osu bot
