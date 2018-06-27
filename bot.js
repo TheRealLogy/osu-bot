@@ -4,8 +4,8 @@ const osu = require('node-osu');
 const cfg = require('./cfg.json');
 
 const prefix = cfg.prefix;
-const token = cfg.token;
-const osuToken = cfg.osuToken
+const token = process.env.BOT_TOKEN
+const osuToken = process.env.OSU_TOKEN
 
 var osuApi = new osu.Api(osuToken, {
   notFoundAsError: true,
